@@ -1,0 +1,69 @@
+{
+  "source_url": "https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2024/projecoes_2024_tab3_grupos_etarios_especificos.xlsx",
+  "source_sha256": "a759c134c9cf0d36f9a633cc9700356f0230ed9be07c47b0b3ab2ee725076b20",
+  "methodology_url": "https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2024/Serie_Relatorios_Metotodologicos_v40_Projecoes_da_Populacao_Brasil_e_Unidades_da_Federacao_Revisao_2024_3a_Edicao.pdf",
+  "source_revision": 2024,
+  "methodology_edition": "3ª edição, 2025",
+  "reference_date": "1º de julho de cada ano",
+  "rows": 355,
+  "estimate_rows": 115,
+  "projection_rows": 240,
+  "years": [
+    2000,
+    2070
+  ],
+  "definition": "100 × população com 65 anos ou mais / população total da mesma região e ano",
+  "method": "Método das Componentes Demográficas: hipóteses de fecundidade, mortalidade e migração; retrospectiva ajustada por conciliação demográfica.",
+  "checks": {
+    "unique_geography_year": true,
+    "complete_71_years_5_regions": true,
+    "recalculated_shares_match_published": true,
+    "UF_sums_equal_regions": true,
+    "region_sums_equal_Brazil": true,
+    "sex_sums_equal_totals": true
+  },
+  "summary": [
+    {
+      "region": "Norte",
+      "2000": 3.9088641297178013,
+      "2022": 6.6148156347075675,
+      "2050": 18.64876489374369,
+      "2070": 28.80909620026389
+    },
+    {
+      "region": "Nordeste",
+      "2000": 6.068146231276464,
+      "2022": 9.71540782651037,
+      "2050": 23.25113490576429,
+      "2070": 32.37180308923144
+    },
+    {
+      "region": "Sudeste",
+      "2000": 6.521789146648818,
+      "2022": 11.551063749968076,
+      "2050": 24.726332260815102,
+      "2070": 31.715385312134
+    },
+    {
+      "region": "Sul",
+      "2000": 6.340827258332182,
+      "2022": 11.698222528877738,
+      "2050": 23.307719840996064,
+      "2070": 30.305105800457184
+    },
+    {
+      "region": "Centro-Oeste",
+      "2000": 4.466570694077221,
+      "2022": 8.561736775558455,
+      "2050": 20.855694014745392,
+      "2070": 28.062701730914817
+    }
+  ],
+  "limitations": [
+    "2000–2022 são estimativas retrospectivas, não contagens diretas de Censos.",
+    "2023–2070 são projeções condicionadas às hipóteses do IBGE; não resultados garantidos.",
+    "A tabela selecionada não fornece intervalos de incerteza; não foram criados intervalos artificiais.",
+    "Não inferir causalidade, significância estatística ou precisão individual a partir dessas trajetórias.",
+    "Não misturar revisões nem extrapolar além de 2070."
+  ]
+}
