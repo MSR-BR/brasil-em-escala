@@ -26,6 +26,7 @@ document.querySelectorAll('[data-share], [data-copy]').forEach(button => {
         await copyLink(url);
         if (status) status.textContent = 'Link copiado.';
       }
+      document.dispatchEvent(new Event('bee:share-success'));
     } catch (error) {
       if (error?.name === 'AbortError') return;
       if (status) status.textContent = 'Não foi possível copiar. Selecione o endereço na barra do navegador.';

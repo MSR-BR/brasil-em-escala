@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://msr-br.github.io/brasil-em-escala/sitemap.xml
